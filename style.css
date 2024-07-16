@@ -1,0 +1,39 @@
+body{
+    font-family: fantasy;
+    background-color: black;
+    
+   align-content: center;
+}
+
+h1{
+    padding-top: 50px;
+    padding-left: 50px;
+    margin: 2px;
+    color:cadetblue;
+    text-decoration:solid;
+
+
+}
+
+h3{
+    margin: 10px;
+    color:grey;
+    font-size: x-large;   
+   
+    padding-left: 50px;
+}
+
+ul, li{
+   
+    
+    padding-left: 50px;
+    list-style: none;
+    font-size: medium;
+    color:aquamarine
+   
+
+}
+
+hr{
+    padding-left: 50px;
+}
