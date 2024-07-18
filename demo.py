@@ -1,3 +1,2 @@
-<?php
-phpinfo();
->
+name=input("What is your Name?")
+print(name)
