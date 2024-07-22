@@ -10,7 +10,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "sdfsdf";
+$password = "";
 
 
 // Create connection
