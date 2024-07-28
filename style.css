@@ -1,0 +1,48 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    padding-top: 10px;
+    margin: 20px;
+
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Collapses table borders into a single border */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   
+}
+
+th, td {
+    border: 1px solid #ddd; /* Light gray border for cells */
+    padding: 8px;           /* Padding inside cells */
+    text-align: left;       /* Align text to the left */
+}
+
+/* Header styling */
+th {
+    background-color: #f4f4f4; /* Light gray background for headers */
+    font-weight: bold;         /* Bold text for headers */
+}
+tbody tr:nth-child(odd) {
+    background-color: #f5f5f5; /* Light gray background for odd rows */
+}
+
+/* Zebra striping for rows */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray background for even rows */
+}
+
+/* Hover effect for rows */
+tbody tr:hover {
+    background-color: #f1f1f1; /* Slightly darker background on hover */
+}
+
+/* Table caption styling */
+caption {
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
