@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Database Table Display</title>
+  
+</head>
+<body>
+
 <?php
 $servername = "localhost";
 $username = "root";
@@ -9,7 +20,10 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
 if ($conn->connect_error) {
+
+
     die("Connection failed: " . $conn->connect_error);
+
 }
 
 // SQL query to select data
@@ -18,16 +32,6 @@ $sql = "SELECT User, password_expired  FROM user";
 $result = $conn->query($sql);
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Database Table Display</title>
-  
-</head>
-<body>
 
 <h1>Users Table</h1>
 
@@ -41,6 +45,7 @@ $result = $conn->query($sql);
     </thead>
     <tbody>
         <?php
+        echo "<h3>Databse Name:  $dbname  </h3>";
         if ($result->num_rows > 0) {
             while($row = $result->fetch_assoc()) {
                
