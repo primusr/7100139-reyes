@@ -13,6 +13,7 @@ if ($conn->connect_error) {
 }
 
 // SQL query to select data
+echo ("Connection Successful");
 $sql = "SELECT User, password_expired  FROM user";
 $result = $conn->query($sql);
 ?>
