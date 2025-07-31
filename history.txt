@@ -1,0 +1,34 @@
+    1  CLEAR
+    2  clear
+    3  exit
+    4  pkg search cmatrix
+    5  clear
+    6  pkg upgrade
+    7  clear
+    8  pkg search cmatrix
+    9  pkg search neofetch
+   10  pkg search git
+   11  clear
+   12  pkg install neofetch cmatrix git
+   13  clear
+   14  cmatrix
+   15  neofetch
+   16  clear
+   17  git -v
+   18  pkg seach gh
+   19  clear
+   20  pkg install gh
+   21  clear
+   22  gh auth login
+   23  clear
+   24  git add .
+   25  git clone https://github.com/primusr/7100139-reyes
+   26  clear
+   27  ls
+   28  cd 7100139-reyes
+   29  ls
+   30  touch filedemo.txt
+   31  nano filedemo.txt
+   32  cat filedemo.txt
+   33  clear
+   34  history > history.txt
