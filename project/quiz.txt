@@ -1,0 +1,181 @@
+    1  clear
+    2  apt update 
+    3  clear
+    4  pkt upgrade -y
+    5  pkg upgrade -y
+    6  clear
+    7  pkg search cmatrix
+    8  pkg search neofetch
+    9  clear
+   10  pkg search git
+   11  clear
+   12  pkg install cmatrix neofetch git -y
+   13  clear
+   14  cmatrix
+   15  neofetch
+   16  clar
+   17  clear
+   18  git -v
+   19  pkg install htop
+   20  clear
+   21  htop
+   22  ls
+   23  pwd
+   24  cd /
+   25  ls
+   26  cd data/daata/com.termux
+   27  cd data/daata/com.termux/files
+   28  cd data/data/com.termux/files
+   29  clear
+   30  ls
+   31  cd home
+   32  ls
+   33  cd ..
+   34  cd usr
+   35  ls
+   36  cd bin
+   37  ls
+   38  clear
+   39  ls
+   40  cd ..
+   41  ls
+   42  cd ..
+   43  cd home
+   44  ls
+   45  clear
+   46  mkdir PlatformTech
+   47  ls
+   48  cd PlatFormtech
+   49  cd PlatformTech
+   50  touch myfile.txt\
+   51  touch myfile.txt
+   52  ls
+   53  clear
+   54  nano myfile.txt
+   55  cat myfile1.txt
+   56  cat myfile.txt
+   57  claer
+   58  clear
+   59  head myfile.txt
+   60  clear
+   61  tail file1.txt
+   62  tail myfile.txt
+   63  clear
+   64  grep "father" myfile.txt
+   65  grep "fox" myfile.txt
+   66  clear
+   67  ls
+   68  cp myfile.txt yourfile.txt
+   69  ls
+   70  nano yourfile.txt
+   71  grep "oi" myfile.txt
+   72  grep "oi" yourfile.txt
+   73  clear
+   74  less yourfile.txt
+   75  clear
+   76  ls -l myfile.txt
+   77  ls 
+   78  clear
+   79  ls -a
+   80  mkdir .vivamaxfolder
+   81  ls
+   82  ls -a
+   83  clear
+   84  ls
+   85  mv myfile.txt /.vivamaxfolder
+   86  ls -a
+   87  cd .vivamaxfolder
+   88  clear
+   89  mv data/data/termux.com/files/home/PlatformTech/myfile.txt
+   90  mv data/data/termux.com/files/home/PlatformTech/myfile.txt /
+   91  mv data/data/termux.com/files/home/PlatformTech/myfile.txt
+   92  clear
+   93  cd /
+   94  ls
+   95  history
+   96  cd data/data/com.termux/files
+   97  ls
+   98  cd home
+   99  ls
+  100  clear
+  101  cd Platformtech
+  102  cd PlatformTech
+  103  ls
+  104  mv myfile.txt /data/data/com.termux/files/home/PlatformTech/.vivamaxfolder
+  105  ls
+  106  clear
+  107  cd .vivamaxfolder
+  108  ls
+  109  rm myfile.txt
+  110  ls
+  111  cd ..
+  112  ls
+  113  rm -r PlatformTech
+  114  ls
+  115  clear
+  116  termux-storage-share
+  117  termux /?
+  118  termux --help
+  119  termux
+  120  clear
+  121  termux-share-storage
+  122  termux-setup-storage
+  123  ls
+  124  cd storage
+  125  ls
+  126  cd downloads
+  127  touch demo1.txt
+  128  clear
+  129  history
+  130  clear
+  131  cd ..
+  132  ls
+  133  mkdir PlatformTech
+  134  ls
+  135  rm PlatformTech
+  136  rm -r PlatformTech
+  137  cd shared
+  138  ls
+  139  mkdir PlatformTech
+  140  clear
+  141  ls 
+  142  cd PlatformTech
+  143  clear
+  144  pkg search gh
+  145  clear
+  146  pkg install gh
+  147  clear
+  148  gh auth login
+  149  clear
+  150  git clone https://github.com/primusr/alttab
+  151  ls
+  152  cd alttab
+  153  ls
+  154  clear
+  155  touch termuxdemo.txt
+  156  nano termuxdemo.txt
+  157  git add .
+  158  git config --global --add safe.directory /storage/emulated/0/PlatformTech/alttab
+  159  git add .
+  160  git commit -m "termux upload"
+  161  git config --global user.email primus.reyes@gmail.com
+  162  git config --global user.name primusr
+  163  clear
+  164  git commit -m "termux upload"
+  165  git push
+  166  clear
+  167  git log -p
+  168  clear
+  169  cd ..
+  170  ls
+  171  git clone https://github.com/primusr/7100139-reyes
+  172  cd 7100139-reyes
+  173  mkdir-p project/src/utils
+  174  ls
+  175  mkdir -p project/src/utils
+  176  ls
+  177  cd project
+  178  tree
+  179  pkg install tree
+  180  tree 
+  181  history > quiz.txt
